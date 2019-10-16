@@ -1,0 +1,67 @@
+.menu_site {
+	color:#535387 !important;
+	font-size: 16px;
+}
+.navmenu {
+	color: #535387ж
+}
+.a_menu {
+	color:#535387  !important;
+	font-size: 16px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.a_li {
+	border-bottom: 2px solid transparent;
+}
+.a_li:hover {
+	border-bottom: 2px solid #535387;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown-menu {
+	background: #535387;
+	color:#fff;
+	padding: 0px;
+	margin: 0;
+	border-radius: 0;
+	border: none;
+	min-width: 250px;
+}
+.dropdown-item:hover {
+	background: #535387;
+}
+.navbar {
+	padding: 0;
+}
+.dropdown-item {
+	color:#fff;
+	white-space: normal;
+}
+.nav-link {
+	padding-left: 10px !important;
+}
+.navbar-toggler {
+	padding:0 !important;
+	width: 40px;
+}
+
+/* мобильная верстка 900 */
+@media all and (max-width: 900px){
+	.a_menu {
+		color: #fff !important;
+	}
+	.a_li {
+		color:#fff !important;
+		border-bottom: none;
+	}
+}

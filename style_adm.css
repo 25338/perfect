@@ -1,0 +1,27 @@
+body, form {
+	margin:0;
+	padding:0;
+	font-family: Arial;
+	font-size: 13px;
+	background: #fff;
+}
+.left_menu {list-style-type:none; font: 16px Arial; padding:6px;color:#FFF;text-decoration:none;}
+.left_menu:hover {background:#222;}
+.sel {color:#fff;text-decoration:none; background:#232D36;}
+.text_16 {font:16px Arial;font-weight:bold;white-space:nowrap;}
+.text_13 {font:13px Arial;font-weight:bold;white-space:nowrap;}
+
+.textdark {
+	font-weight: bold;
+}
+.file {
+	overflow: hidden;
+	white-space: nowrap;
+}
+.mypadding {
+	padding: 15px 0;
+}
+.date2 {
+	width: 120px !important;
+	background-color: #fff !important;
+}

@@ -1,0 +1,379 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	font-size: 1em;
+	color:#555;
+	background: #fff;
+	line-height: 1.5;
+}
+*, :before, :after {
+	box-sizing: border-box;
+}
+/* основной цвет */
+.bg-color {
+	background-color: #535387 !important;
+}
+.txt-color{
+	color: #535387;
+}
+/* высота верхней шапки */
+.div-top {
+	height:150px;
+	position: absolute;
+	width:100%;
+	z-index: 0;
+}
+.div-top-content {
+	width: 92% !important;
+	margin: auto;
+}
+.div-title {
+	font-size: 30px;
+	padding-top: 5px;
+}
+/* отсуп сверху */
+.div-padding-top{
+	height:100px;
+}
+.t-white {
+	color:#fff;
+	font-size: 13px;
+}
+.t-social {
+	color:#fff;
+}
+.t-social:hover {
+	color:#fff;
+}
+
+.top-padding {
+	padding-top: 15px;
+}
+.left-padding, .right-padding {
+	padding-left: 15px;
+}
+/* логотип и гл.меню */
+.logo {
+	background-color: #fff;
+	width: 85% !important;
+	margin: auto;
+	height: 150px;
+	padding:10px 20px;
+	z-index: 99;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* слайдер */
+.one {
+	position: relative;
+	z-index: 0;
+	width: 92%;
+	margin: auto;
+}
+.price {
+	margin-top: 10px;
+	background-color: #535387 !important;
+	color: #fff;
+	border: none;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	padding: 10px 10px 5px 15px;
+	font-style: italic;
+	font-size: 110%;
+	margin-left:40px;
+}
+
+/* слайдер */
+.img_response{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-blend-mode:difference,normal,normal;
+	background-position:50%;
+	background-size:cover;
+	background-repeat:no-repeat
+}
+.text_slaider {
+	line-height: 1.3;
+	position: absolute; 
+	bottom:100px; 
+	left:50px; 
+	max-width: 600px; 
+	color:#000; 
+	font-size: 30px;
+	padding:15px;
+}
+/* список каталог */
+.div-catalog {
+	width: 92% !important;
+	margin: auto;
+	position: relative;
+}
+.catalog-item {
+	background-color: #fff;
+	border: 2px solid #eee;
+	padding: 10px 20px 20px 20px;
+	height: 380px !important;
+	overflow: hidden;
+}
+.divcatalog-img {
+	height:250px !important;
+	margin: auto;
+	overflow: hidden;
+}
+.catalog-img {
+	margin: auto;
+	width: 170px !important;
+}
+.catalog-tit {
+	padding-top: 15px;
+	font-size: 12px !important;
+	font-weight: bold;
+	color:#000;
+}
+.catalog-desc {
+	padding-top: 5px;
+	font-size: 12px !important;
+	color: #555;
+}
+.div-details {
+	padding-top: 2px;
+	border-top: 1px solid #aaa;
+}
+.catalog-details {
+	font-size: 12px;
+	margin: auto;
+	cursor: pointer;
+	color: #059 !important;
+	text-decoration: underline;
+}
+.modal-dialog {
+	max-width: 700px;
+}
+
+/* четрые блога */
+.div-blog4 {
+	background: url('/img/site/mebel.png') center center;
+	background-position:50%;
+	background-size:cover;
+	width: 100%;
+}
+
+.div-blog4-center {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.blog-img {
+	position: relative;
+	top: 20px;
+	z-index: 1;
+}
+.blog-text {
+	position: relative;
+	top: -70px;
+	z-index: 0;
+	width: 255px;
+	height: 230px;
+	margin: auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 120px 20px 0 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+/* блог дилерам */
+.div-dealer {
+	width: 80%;
+	margin: auto;
+}
+.dealer-img {
+	max-width: 300px;
+}
+/* О нас */
+.div-about {
+	width: 80%;
+	margin: auto;
+	color: #fff;
+	height: 250px;	
+}
+.about-img {
+	position: relative;
+	top: -20px;
+	height: 290px;
+	max-width: 450px;
+	overflow: hidden;
+}
+.about-txt {
+	font-size: 15px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+/*  меню */
+.menu_perfect {
+	margin: auto;
+}
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  color: #fff;
+  font-size: 35px;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+/* клиенты */
+.div-client {
+	width: 92% !important;
+	margin: auto;
+	position: relative;
+}
+.client-item {
+	height:90px;
+	margin: auto;
+}
+.divclient-img {
+	overflow: hidden;
+}
+.client-img {
+	margin: auto;
+	width: 200px !important;
+}
+/* подвал сайта */
+.div-contacts {
+	padding:20px;
+	width: 90% !important;
+	margin: auto;
+	color: #fff;
+	height: 120px;
+	overflow: hidden;
+}
+.contacts-txt {
+	font-size: 15px;
+}
+.div-footer {
+	background: #373759;
+	height:40px;
+}
+.footer-txt {
+	padding:10px;
+	font-size: 12px;
+	width: 90% !important;
+	margin: auto;
+	color: #aaa;
+}
+/* обратная связь*/
+.form3 {
+	color: #fff;
+}
+
+/* мобильная верстка 900 */
+@media all and (max-width: 900px){
+	.social {
+		display: none;
+	}
+	.div-top {
+		text-align: center;
+	}
+	.logo {
+		width: 90% !important;
+	}
+	.logo_perfect {
+		margin: auto;
+	}
+	.menu_perfect {
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		background: #535387;
+		width: 100%;
+	}
+	.one {
+		width: 100% !important;
+	}
+	.div-blog4 {
+		height: auto;
+	}
+	.blog4-height {
+		height: 330px !important;
+	}
+	.text_slaider {
+		bottom:60px;
+	}
+	.div-dealer, .div-about {
+		width: 90%;
+	}
+	.about-txt {
+		font-size: 14px;
+	}
+	.div-about .col-auto, .div-dealer .col-auto {
+		display: none;
+	}
+	.div-about {
+		height: auto;
+	}
+	.div-title {
+		text-align: center;
+	}
+	.contacts-txt {
+		font-size: 50%;
+	}
+	.footer-txt {
+		font-size: 50%;
+	}
+	.video {
+		max-width:100%;
+		height: auto;
+	}
+}
+
+
+/* мобильная верстка 360 */
+@media all and (max-width: 400px){
+	.d-flex {
+		display: block !important;
+		line-height: 1;
+	}
+	.logo {
+		width: 90% !important;
+		top: 60px;
+	}
+	.p-2 {
+		padding: 0 !important;
+	}
+	.one {
+		width: 100% !important;
+	}
+}
